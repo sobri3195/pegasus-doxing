@@ -1,0 +1,75 @@
+/* Pegasus Doxing Custom Styles */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.card-header {
+    background-color: #343a40;
+    color: white;
+    border-bottom: none;
+}
+
+.form-check {
+    margin-bottom: 0.5rem;
+}
+
+.result-content {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+}
+
+.result-content pre {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    overflow-x: auto;
+}
+
+.btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+    padding: 0.5rem 2rem;
+}
+
+.btn-primary:hover {
+    background-color: #23272b;
+    border-color: #23272b;
+}
+
+.footer {
+    margin-top: 3rem;
+    padding: 1rem 0;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .form-check {
+        margin-bottom: 0.25rem;
+    }
+} 
