@@ -73,3 +73,10 @@ body {
         margin-bottom: 0.25rem;
     }
 } 
+.module-check {
+    padding: 0.35rem 0;
+}
+
+.module-check small {
+    line-height: 1.2;
+}
